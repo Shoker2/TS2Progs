@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./_V5cF98AXzU1.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    
+}
+
+[class^="box-"] {
+    display: grid;
+    place-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    padding: 1rem;
+}
+
+div {
+    display: block;
+}
+
+.topMenu{
+    z-index: 99;
+    padding: 0.1rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    transition: 0.25s;
+    border-radius: 1rem;
+
+    color: rgb(90, 189, 247);
+    background-color: rgba(24, 24, 24, 1);
+}
+
+.topMenu:hover{
+    color: rgb(24, 24, 24);
+    background-color: rgb(90, 189, 247);
+}
+
+
+.TMItems{
+	font-size: 26px;
+    margin: 10px 40%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 12rem;
+}
+
+.content{
+    background-color: rgba(135, 206, 235, 0);
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rightBox{
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(24, 24, 24, 0.9);
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.rightboxcontent {
+    background-color: rgba(128, 0, 128, 0.8);   
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-top: 8rem;
+}
+
+.Backblock{
+    padding: 6px;
+    margin: 4px auto;
+    background-color: rgb(190, 190, 190);
+    text-align: left;
+    border-radius: 1rem;
+}
+
+.block{
+    margin: 6px auto;
+    background-color: rgb(243, 243, 243);
+    text-align: left;
+    border-radius: 1rem 1rem 0 0;
+    -webkit-box-shadow: 12px 33px 41px -2px rgba(34, 60, 80, 0.5);
+    -moz-box-shadow: 12px 33px 41px -2px rgba(34, 60, 80, 0.5);
+    box-shadow: 12px 33px 41px -2px rgba(34, 60, 80, 0.5);
+}
+
+img {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.titlePost{
+    color: rgb(90, 189, 247);
+    background-color: rgb(24, 24, 24);
+    font-size: 2rem;
+    margin: 0.3rem 0;
+    border-radius: 1rem 1rem 0 0;
+    padding: 0 1rem;
+    transition: 0.25s;
+    padding-bottom: 4px;
+}
+
+.titlePost:hover{
+    color: rgb(20, 20, 20);
+    background-color: rgb(56, 171, 238); 
+}
+
+.imgContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    background-color: gainsboro;
+}
+
+.menuButton{
+    color: white;
+    width: 50%;
+    background-color: rgb(24, 24, 24);
+    padding: 0.7rem;
+    transition: 0.25s;
+    text-align: center;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.menuButton:hover{
+    color: white;
+    background-color: rgb(38, 35, 41);
+    border: 1px solid rgb(198, 140, 255);
+}
+
+.blockPage{
+    margin: 6px auto;
+    background-color: rgb(243, 243, 243);
+    text-align: left;
+    border-radius: 1rem 1rem 0 0;
+    -webkit-box-shadow: 12px 33px 41px -2px rgba(34, 60, 80, 0.5);
+    -moz-box-shadow: 12px 33px 41px -2px rgba(34, 60, 80, 0.5);
+    box-shadow: 12px 33px 41px -2px rgba(34, 60, 80, 0.5);
+}
+
+.titlePage{
+    color: rgb(90, 189, 247);
+    background-color: rgb(24, 24, 24);
+    font-size: 2rem;
+    margin: 0.3rem 0;
+    border-radius: 1rem 1rem 0 0;
+    padding: 0 1rem;
+    transition: 0.25s;
+    padding-bottom: 4px;
+}
+
+.downloadMD{
+    text-align: center;
+    padding: 1rem;
+}
+
+.downloadTitle{
+    color: rgb(90, 189, 247);
+    font-size: 2rem;
+}
+
+.downloadButton{
+    font-size: 18px;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.AD{
+    width: 100%;
+}
